@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "איכות אוויר Copernicus CAMS",
+        "description": "בחר מיקום על המפה ותן לו שם. ניתן להוסיף מיקומים מרובים.",
+        "data": {
+          "name": "שם מיקום",
+          "location": "מיקום (גרור סיכה על המפה)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "שם מיקום נדרש"
+    },
+    "abort": {
+      "already_configured": "מיקום זה כבר מוגדר"
+    }
+  }
+}
