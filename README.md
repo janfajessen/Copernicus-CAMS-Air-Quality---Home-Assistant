@@ -25,7 +25,7 @@ A Home Assistant integration providing real-time air quality data and 4-day fore
 
 ## Here's what genuinely sets it apart:
 
-- **Saharan dust** — actually quite rare, you're right that most integrations skip it. Worth keeping as a differentiator, especially for southern Europe and Andorra during calima episodes.
+- **Saharan dust** — actually quite rare, you're right that most integrations skip it. Worth keeping as a differentiator, especially for southern Europe during calima episodes.
 - **3 sensors per variable (current + daily max + time of max)** — most integrations only expose the current value. Having the daily peak and when it occurred is genuinely useful for health decisions.
 - **24-hour forecast as an attribute on every current sensor** — not just today's value but the next 24 hours inline, usable directly in templates and automations without extra entities.
 - **European AQI (CITEAIR) calculated locally** — many integrations either don't include AQI at all, or use the US EPA scale which is less relevant for European users. Composite index (1–6 CITEAIR scale) calculated from PM2.5, PM10, NO2 and O3
