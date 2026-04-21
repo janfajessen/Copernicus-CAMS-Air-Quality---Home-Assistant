@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Qualità dell'aria Copernicus CAMS",
+        "description": "Scegli una posizione sulla mappa e dagli un nome. Puoi aggiungere più posizioni.",
+        "data": {
+          "name": "Nome posizione",
+          "location": "Posizione (trascina il pin sulla mappa)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Il nome della posizione è obbligatorio"
+    },
+    "abort": {
+      "already_configured": "Questa posizione è già configurata"
+    }
+  }
+}
