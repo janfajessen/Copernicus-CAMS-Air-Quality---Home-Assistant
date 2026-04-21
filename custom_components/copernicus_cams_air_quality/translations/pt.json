@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Qualidade do Ar Copernicus CAMS",
+        "description": "Escolha uma localização no mapa e dê um nome a ela. Pode adicionar várias localizações.",
+        "data": {
+          "name": "Nome da localização",
+          "location": "Localização (arraste o pino no mapa)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "O nome da localização é obrigatório"
+    },
+    "abort": {
+      "already_configured": "Esta localização já está configurada"
+    }
+  }
+}
