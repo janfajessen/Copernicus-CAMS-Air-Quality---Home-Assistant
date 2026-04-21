@@ -1,0 +1,6 @@
+{
+  "name": "Copernicus CAMS Air Quality",
+  "homeassistant": "2026.1.0",
+  "category": "integration",
+  "render_readme": true
+}

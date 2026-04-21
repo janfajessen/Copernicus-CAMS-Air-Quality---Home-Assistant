@@ -1,0 +1,12 @@
+{
+  "domain": "copernicus_cams_air_quality",
+  "name": "Copernicus CAMS Air Quality",
+  "codeowners": ["@janfajessen"],
+  "config_flow": true,
+  "documentation": "https://github.com/janfajessen/copernicus_cams_air_quality",
+  "homeassistant": "2026.1.0",
+  "iot_class": "cloud_polling",
+  "manifest_version": 1,
+  "requirements": [],
+  "version": "1.3.0"
+}

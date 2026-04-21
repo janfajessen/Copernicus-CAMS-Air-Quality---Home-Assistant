@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Air Quality",
+        "description": "Choose a location on the map and give it a name. You can add multiple locations.",
+        "data": {
+          "name": "Location name",
+          "location": "Location (drag pin on map)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Location name is required"
+    },
+    "abort": {
+      "already_configured": "This location is already configured"
+    }
+  }
+}
