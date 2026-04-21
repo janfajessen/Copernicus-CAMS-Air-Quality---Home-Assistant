@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Luftkwaliteit",
+        "description": "Kies in lokaasje op 'e kaart en jou it in namme. Jo kinne meardere lokaasjes tafoegje.",
+        "data": {
+          "name": "Lokaasje namme",
+          "location": "Lokaasje (sleep pin op kaart)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Lokaasje namme is ferplicht"
+    },
+    "abort": {
+      "already_configured": "Dizze lokaasje is al konfigurearre"
+    }
+  }
+}
