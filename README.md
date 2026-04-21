@@ -1,6 +1,8 @@
 <div align="center">
     
-# Copernicus CAMS Air Quality <br> Home Assistant Integration
+# Copernicus CAMS Air Quality 
+### copernicus atmosphere monitoring service
+# Home Assistant Integration
 
 <img src="brands/logo@2x.png" width="450"/>
 
@@ -21,15 +23,16 @@ A Home Assistant integration providing real-time air quality data and 4-day fore
 
 ---
 
-## Features
+## Here's what genuinely sets it apart:
 
-- **Map-based location picker** — drag a pin on an interactive map during setup, no manual coordinate entry needed
-- **Multiple locations** — add as many locations as you want, each with its own device and sensors
-- **11 measured variables** — particulates, gases, UV radiation and pollen
-- **3 sensors per variable** — current value, daily maximum, and time of daily maximum
-- **24-hour forecast** — available as an attribute on every current-value sensor
-- **European AQI** — composite index (1–6 CITEAIR scale) calculated from PM2.5, PM10, NO2 and O3
-- **Hourly updates** — data refreshed every hour via DataUpdateCoordinator
+- **Saharan dust** — actually quite rare, you're right that most integrations skip it. Worth keeping as a differentiator, especially for southern Europe and Andorra during calima episodes.
+- **3 sensors per variable (current + daily max + time of max)** — most integrations only expose the current value. Having the daily peak and when it occurred is genuinely useful for health decisions.
+- **24-hour forecast as an attribute on every current sensor** — not just today's value but the next 24 hours inline, usable directly in templates and automations without extra entities.
+- **European AQI (CITEAIR) calculated locally** — many integrations either don't include AQI at all, or use the US EPA scale which is less relevant for European users. Composite index (1–6 CITEAIR scale) calculated from PM2.5, PM10, NO2 and O3
+- **Map picker in setup** — most custom integrations ask for raw lat/lon coordinates. The interactive pin makes it accessible to non-technical users.
+- **Multiple locations from one integration** — each instance is a separate device, so you can monitor home, office, a school, etc. cleanly.
+- **Pollen + pollutants + UV in one device** — competing integrations usually cover only one category. This one groups everything under a single device per location. 11 measured variables, particulates, gases, UV radiation and pollen
+- **Zero dependencies** — no external Python packages, just HA's built-in aiohttp. Easier to install and less likely to break on HA updates.
 - **Translations** — 49 Multilingual
 
 ---
@@ -61,6 +64,7 @@ A Home Assistant integration providing real-time air quality data and 4-day fore
 2. Add `https://github.com/janfajessen/copernicus_cams_air_quality` as **Integration**
 3. Search for **Copernicus CAMS Air Quality** and install
 4. Restart Home Assistant
+<img src="brands/icon@2x.png" width="100"/>
 
 ### Manual
 
@@ -325,6 +329,10 @@ Expected for pollen sensors outside Europe, or temporarily if the API is unreach
 Force a refresh by calling `homeassistant.update_entity` on any sensor of this integration, or wait for the next hourly update.
 
 ---
+
+<div align="center">
+<img src="brands/logo@2x.png" width="250"/>
+</div>
 
 ## License
 
