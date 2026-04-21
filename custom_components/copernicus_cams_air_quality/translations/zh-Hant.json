@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "哥白尼 CAMS 空氣品質",
+        "description": "在地圖上選擇一個位置並為其命名。您可以新增多個位置。",
+        "data": {
+          "name": "位置名稱",
+          "location": "位置（在地圖上拖曳圖釘）"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "位置名稱是必填項"
+    },
+    "abort": {
+      "already_configured": "此位置已設定"
+    }
+  }
+}

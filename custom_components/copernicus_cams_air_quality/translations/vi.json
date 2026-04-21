@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Chất lượng không khí Copernicus CAMS",
+        "description": "Chọn một vị trí trên bản đồ và đặt tên cho nó. Bạn có thể thêm nhiều vị trí.",
+        "data": {
+          "name": "Tên vị trí",
+          "location": "Vị trí (kéo ghim trên bản đồ)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Yêu cầu tên vị trí"
+    },
+    "abort": {
+      "already_configured": "Vị trí này đã được cấu hình"
+    }
+  }
+}

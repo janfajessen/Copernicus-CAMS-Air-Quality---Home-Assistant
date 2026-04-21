@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "คุณภาพอากาศ Copernicus CAMS",
+        "description": "เลือกตำแหน่งบนแผนที่และตั้งชื่อ คุณสามารถเพิ่มหลายตำแหน่ง",
+        "data": {
+          "name": "ชื่อตำแหน่ง",
+          "location": "ตำแหน่ง (ลากหมุดบนแผนที่)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "ต้องระบุชื่อตำแหน่ง"
+    },
+    "abort": {
+      "already_configured": "กำหนดค่าตำแหน่งนี้แล้ว"
+    }
+  }
+}

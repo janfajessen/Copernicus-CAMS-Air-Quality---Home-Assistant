@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Hava Kalitesi",
+        "description": "Haritada bir konum seçin ve ona bir ad verin. Birden fazla konum ekleyebilirsiniz.",
+        "data": {
+          "name": "Konum adı",
+          "location": "Konum (haritadaki iğneyi sürükleyin)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Konum adı gereklidir"
+    },
+    "abort": {
+      "already_configured": "Bu konum zaten yapılandırılmış"
+    }
+  }
+}
