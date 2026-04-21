@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Luggehalte",
+        "description": "Kies 'n ligging op die kaart en gee dit 'n naam. Jy kan verskeie liggings byvoeg.",
+        "data": {
+          "name": "Ligging naam",
+          "location": "Ligging (sleep speld op kaart)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Ligging naam word vereis"
+    },
+    "abort": {
+      "already_configured": "Hierdie ligging is reeds gekonfigureer"
+    }
+  }
+}
