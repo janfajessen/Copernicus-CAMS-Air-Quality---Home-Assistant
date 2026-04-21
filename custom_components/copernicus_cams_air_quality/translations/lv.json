@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Gaisa kvalitāte",
+        "description": "Izvēlieties vietu kartē un piešķiriet tai nosaukumu. Varat pievienot vairākas vietas.",
+        "data": {
+          "name": "Vietas nosaukums",
+          "location": "Vieta (velciet piespraudi kartē)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Vietas nosaukums ir obligāts"
+    },
+    "abort": {
+      "already_configured": "Šī vieta jau ir konfigurēta"
+    }
+  }
+}
