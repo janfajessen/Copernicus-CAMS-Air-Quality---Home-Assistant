@@ -33,7 +33,7 @@ A Home Assistant integration providing real-time air quality data and 4-day fore
 - **Multiple locations from one integration** — each instance is a separate device, so you can monitor home, office, a school, etc. cleanly.
 - **Pollen + pollutants + UV in one device** — competing integrations usually cover only one category. This one groups everything under a single device per location. 11 measured variables, particulates, gases, UV radiation and pollen
 - **Zero dependencies** — no external Python packages, just HA's built-in aiohttp. Easier to install and less likely to break on HA updates.
-- **Translations** — 49 Multilingual
+- **Translations** — 49 Multilingual Home Assistant languagues
 
 ---
 
