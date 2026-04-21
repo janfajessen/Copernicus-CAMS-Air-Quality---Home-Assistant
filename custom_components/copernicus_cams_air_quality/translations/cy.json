@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ansawdd Aer Copernicus CAMS",
+        "description": "Dewiswch leoliad ar y map a rhowch enw iddo. Gallwch ychwanegu sawl lleoliad.",
+        "data": {
+          "name": "Enw'r lleoliad",
+          "location": "Lleoliad (llusgwch bin ar y map)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Mae angen enw lleoliad"
+    },
+    "abort": {
+      "already_configured": "Mae'r lleoliad hwn eisoes wedi'i ffurfweddu"
+    }
+  }
+}
