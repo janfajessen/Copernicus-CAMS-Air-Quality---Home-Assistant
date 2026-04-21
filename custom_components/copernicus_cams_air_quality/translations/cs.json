@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Kvalita ovzduší Copernicus CAMS",
+        "description": "Vyberte místo na mapě a pojmenujte jej. Můžete přidat více míst.",
+        "data": {
+          "name": "Název místa",
+          "location": "Místo (přetáhněte špendlík na mapě)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Název místa je povinný"
+    },
+    "abort": {
+      "already_configured": "Toto místo je již nakonfigurováno"
+    }
+  }
+}
