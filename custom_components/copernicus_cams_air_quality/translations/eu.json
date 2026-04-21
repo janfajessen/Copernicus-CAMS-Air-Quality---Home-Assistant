@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Airearen kalitatea",
+        "description": "Aukeratu kokaleku bat mapan eta eman izen bat. Hainbat kokaleku gehi ditzakezu.",
+        "data": {
+          "name": "Kokalekuaren izena",
+          "location": "Kokalekua (arrastatu orratza mapan)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Kokalekuaren izena beharrezkoa da"
+    },
+    "abort": {
+      "already_configured": "Kokaleku hau jadanik konfiguratuta dago"
+    }
+  }
+}
