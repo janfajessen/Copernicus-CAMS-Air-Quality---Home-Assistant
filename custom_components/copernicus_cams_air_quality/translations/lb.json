@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Loftqualitéit",
+        "description": "Wielt eng Plaz op der Kaart a gitt hir en Numm. Dir kënnt méi Plazen dobäisetzen.",
+        "data": {
+          "name": "Plaz Numm",
+          "location": "Plaz (zitt d'Pin op der Kaart)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Plaz Numm ass erfuerderlech"
+    },
+    "abort": {
+      "already_configured": "Dës Plaz ass scho konfiguréiert"
+    }
+  }
+}
