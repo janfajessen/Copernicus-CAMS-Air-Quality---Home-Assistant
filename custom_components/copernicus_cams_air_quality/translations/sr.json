@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Kvalitet vazduha",
+        "description": "Izaberite lokaciju na mapi i dajte joj ime. Možete dodati više lokacija.",
+        "data": {
+          "name": "Ime lokacije",
+          "location": "Lokacija (prevucite iglu na mapi)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Ime lokacije je obavezno"
+    },
+    "abort": {
+      "already_configured": "Ova lokacija je već konfigurisana"
+    }
+  }
+}
