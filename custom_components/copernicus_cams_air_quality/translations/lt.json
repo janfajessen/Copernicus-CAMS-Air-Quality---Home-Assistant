@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Oro kokybė",
+        "description": "Pasirinkite vietą žemėlapyje ir suteikite jai pavadinimą. Galite pridėti kelias vietas.",
+        "data": {
+          "name": "Vietos pavadinimas",
+          "location": "Vieta (tempkite segtuką žemėlapyje)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Būtinas vietos pavadinimas"
+    },
+    "abort": {
+      "already_configured": "Ši vieta jau sukonfigūruota"
+    }
+  }
+}
