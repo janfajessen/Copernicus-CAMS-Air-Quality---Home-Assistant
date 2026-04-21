@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Luftkvalitet",
+        "description": "Vælg en placering på kortet og giv den et navn. Du kan tilføje flere placeringer.",
+        "data": {
+          "name": "Placeringsnavn",
+          "location": "Placering (træk pind på kortet)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Placeringsnavn er påkrævet"
+    },
+    "abort": {
+      "already_configured": "Denne placering er allerede konfigureret"
+    }
+  }
+}
