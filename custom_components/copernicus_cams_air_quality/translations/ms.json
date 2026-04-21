@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Kualiti Udara Copernicus CAMS",
+        "description": "Pilih lokasi pada peta dan berikan nama. Anda boleh menambah berbilang lokasi.",
+        "data": {
+          "name": "Nama lokasi",
+          "location": "Lokasi (seret pin pada peta)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Nama lokasi diperlukan"
+    },
+    "abort": {
+      "already_configured": "Lokasi ini sudah dikonfigurasikan"
+    }
+  }
+}
