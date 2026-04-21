@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Calitatea aerului Copernicus CAMS",
+        "description": "Alegeți o locație pe hartă și dați-i un nume. Puteți adăuga mai multe locații.",
+        "data": {
+          "name": "Numele locației",
+          "location": "Locație (trageți acul pe hartă)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Numele locației este obligatoriu"
+    },
+    "abort": {
+      "already_configured": "Această locație este deja configurată"
+    }
+  }
+}
