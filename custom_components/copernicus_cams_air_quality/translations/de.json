@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Luftqualität",
+        "description": "Wähle einen Ort auf der Karte und gib ihm einen Namen. Du kannst mehrere Orte hinzufügen.",
+        "data": {
+          "name": "Ortsname",
+          "location": "Ort (Pin auf der Karte ziehen)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Ortsname ist erforderlich"
+    },
+    "abort": {
+      "already_configured": "Dieser Ort ist bereits konfiguriert"
+    }
+  }
+}
