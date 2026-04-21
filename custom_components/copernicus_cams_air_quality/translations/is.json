@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Loftgæði",
+        "description": "Veldu staðsetningu á kortinu og gefðu henni nafn. Þú getur bætt við mörgum stöðum.",
+        "data": {
+          "name": "Heiti staðsetningar",
+          "location": "Staðsetning (dragðu pinnann á kortinu)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Heiti staðsetningar er nauðsynlegt"
+    },
+    "abort": {
+      "already_configured": "Þessi staðsetning er þegar stillt"
+    }
+  }
+}
