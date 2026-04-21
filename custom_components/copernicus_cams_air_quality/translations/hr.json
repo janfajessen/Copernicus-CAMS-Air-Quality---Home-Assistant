@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Kvaliteta zraka",
+        "description": "Odaberite lokaciju na karti i dajte joj ime. Možete dodati više lokacija.",
+        "data": {
+          "name": "Ime lokacije",
+          "location": "Lokacija (povucite pribadaču na karti)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Ime lokacije je obavezno"
+    },
+    "abort": {
+      "already_configured": "Ova lokacija je već konfigurirana"
+    }
+  }
+}
