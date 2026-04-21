@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Jakość powietrza Copernicus CAMS",
+        "description": "Wybierz lokalizację na mapie i nadaj jej nazwę. Możesz dodać wiele lokalizacji.",
+        "data": {
+          "name": "Nazwa lokalizacji",
+          "location": "Lokalizacja (przeciągnij pinezkę na mapie)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Nazwa lokalizacji jest wymagana"
+    },
+    "abort": {
+      "already_configured": "Ta lokalizacja jest już skonfigurowana"
+    }
+  }
+}
