@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Levegőminőség",
+        "description": "Válassz egy helyszínt a térképen, és adj neki nevet. Több helyszínt is hozzáadhatsz.",
+        "data": {
+          "name": "Helyszín neve",
+          "location": "Helyszín (húzd a gombostűt a térképen)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Helyszín név megadása kötelező"
+    },
+    "abort": {
+      "already_configured": "Ez a helyszín már konfigurálva van"
+    }
+  }
+}
