@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicuse CAMS õhukvaliteet",
+        "description": "Vali kaardil asukoht ja anna sellele nimi. Võid lisada mitu asukohta.",
+        "data": {
+          "name": "Asukoha nimi",
+          "location": "Asukoht (lohista nõel kaardil)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Asukoha nimi on nõutav"
+    },
+    "abort": {
+      "already_configured": "See asukoht on juba seadistatud"
+    }
+  }
+}
