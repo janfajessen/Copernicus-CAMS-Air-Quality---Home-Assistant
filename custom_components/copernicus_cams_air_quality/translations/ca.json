@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Qualitat de l'aire Copernicus CAMS",
+        "description": "Trieu una ubicació al mapa i doneu-li un nom. Podeu afegir múltiples ubicacions.",
+        "data": {
+          "name": "Nom de la ubicació",
+          "location": "Ubicació (arrossegueu la chincheta al mapa)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "El nom de la ubicació és obligatori"
+    },
+    "abort": {
+      "already_configured": "Aquesta ubicació ja està configurada"
+    }
+  }
+}
