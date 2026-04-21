@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Luchtkwaliteit",
+        "description": "Kies een locatie op de kaart en geef deze een naam. Je kunt meerdere locaties toevoegen.",
+        "data": {
+          "name": "Locatienaam",
+          "location": "Locatie (sleep pin op kaart)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Locatienaam is vereist"
+    },
+    "abort": {
+      "already_configured": "Deze locatie is al geconfigureerd"
+    }
+  }
+}
