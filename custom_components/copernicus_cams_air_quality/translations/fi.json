@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS Ilmanlaatu",
+        "description": "Valitse sijainti kartalta ja anna sille nimi. Voit lisätä useita sijainteja.",
+        "data": {
+          "name": "Sijainnin nimi",
+          "location": "Sijainti (vedä neula kartalla)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Sijainnin nimi vaaditaan"
+    },
+    "abort": {
+      "already_configured": "Tämä sijainti on jo määritetty"
+    }
+  }
+}
