@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Calidade do aire Copernicus CAMS",
+        "description": "Escolle unha localización no mapa e dálle un nome. Podes engadir varias localizacións.",
+        "data": {
+          "name": "Nome da localización",
+          "location": "Localización (arrastra a chincheta no mapa)"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "Requírese o nome da localización"
+    },
+    "abort": {
+      "already_configured": "Esta localización xa está configurada"
+    }
+  }
+}
