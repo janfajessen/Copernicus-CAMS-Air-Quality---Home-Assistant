@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Copernicus CAMS 大気質",
+        "description": "地図上の場所を選択し、名前を付けます。複数の場所を追加できます。",
+        "data": {
+          "name": "場所の名前",
+          "location": "場所（地図上のピンをドラッグ）"
+        }
+      }
+    },
+    "error": {
+      "location_name_required": "場所の名前は必須です"
+    },
+    "abort": {
+      "already_configured": "この場所は既に設定されています"
+    }
+  }
+}
