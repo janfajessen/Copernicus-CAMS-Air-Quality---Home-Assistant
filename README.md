@@ -30,7 +30,7 @@ A Home Assistant integration providing real-time air quality data and 4-day fore
 - **24-hour forecast** — available as an attribute on every current-value sensor
 - **European AQI** — composite index (1–6 CITEAIR scale) calculated from PM2.5, PM10, NO2 and O3
 - **Hourly updates** — data refreshed every hour via DataUpdateCoordinator
-- **Translations** — English and Spanish included
+- **Translations** — 49 Multilingual
 
 ---
 
