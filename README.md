@@ -351,4 +351,4 @@ MIT — see [LICENSE](LICENSE)
 
 ## Author
 
-[Jan Fajessen](https://github.com/janfajessen)
+© [@janfajessen](https://github.com/janfajessen)
