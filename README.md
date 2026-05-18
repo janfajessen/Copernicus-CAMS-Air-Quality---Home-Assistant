@@ -6,7 +6,7 @@
 
 <img src="https://github.com/janfajessen/Copernicus-CAMS-Air-Quality---Home-Assistant/blob/61aa56cedad9165bf38345a00ad3cc484fe6a672/brand/logo%402x.png" width="450"/>
 
-![Version](https://img.shields.io/badge/version-1.3.7-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.3.8-blue?style=for-the-badge)
 ![HA](https://img.shields.io/badge/Home%20Assistant-2024.1+-orange?style=for-the-badge&logo=home-assistant)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python)
@@ -61,7 +61,7 @@ A Home Assistant integration providing real-time air quality data and 4-day fore
 ### Via HACS (recommended)
 
 1. Open HACS → Integrations → ⋮ → Custom repositories
-2. Add `https://github.com/janfajessen/copernicus_cams_air_quality` as **Integration**
+2. Add `https://github.com/janfajessen/Copernicus-CAMS-Air-Quality---Home-Assistant` as **Integration**
 3. Search for **Copernicus CAMS Air Quality** and install
 4. Restart Home Assistant
 <img src="https://github.com/janfajessen/Copernicus-CAMS-Air-Quality---Home-Assistant/blob/61aa56cedad9165bf38345a00ad3cc484fe6a672/brand/icon%402x.png" width="100"/>
